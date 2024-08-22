@@ -1,1 +1,5 @@
-console.log('Thank you for using WebStorm 💙')
+class MyPromise {
+    constructor(executor) {
+        executor(this.resolve, this.reject)
+    }
+}
